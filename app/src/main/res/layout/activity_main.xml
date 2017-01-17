@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.javier.androidinterface01.MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_main">
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a139"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView1"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_empresa"
+            android:textSize="36sp"
+            style="@style/Color"
+            android:textStyle="normal|bold"
+            android:id="@+id/textView1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_centerHorizontal="true"
+            />
+
+    <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitulo_empresa_esp"
+            android:textSize="16sp"
+            style="@style/ColorNegro"
+            android:layout_below="@id/textView1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_centerHorizontal="true"
+            />
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitulo_empresa_ingles"
+            android:textSize="21sp"
+            android:textStyle="normal|italic"
+            style="@style/ColorNegro"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+        />
+
+    <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/web_empresa"
+            style="@style/TextoAbajoAliIzda"
+            android:layout_above="@id/textView7"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_empresa"
+        style="@style/TextoAbajoAliIzda"
+        android:layout_above="@id/textView5"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_empresa"
+        style="@style/TextoAbajoAliIzda"
+        android:layout_above="@id/textView4"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dir_empresa"
+        style="@style/TextoAbajoAliIzda"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <ImageView
+            android:layout_height="@dimen/imageview_height"
+            android:layout_width="@dimen/imageview_width"
+            android:src="@drawable/movil"
+            android:id="@+id/imageView2"
+            android:layout_above="@id/textView4"
+            style="@style/ImagenAbajoAliIzda"
+
+            />
+
+    <ImageView
+            android:layout_height="@dimen/imageview_height"
+            android:layout_width="@dimen/imageview_width"
+            android:src="@drawable/email"
+            android:id="@+id/imageView3"
+            android:layout_above="@id/textView5"
+            style="@style/ImagenAbajoAliIzda"
+            />
+
+    <ImageView
+            android:layout_height="@dimen/imageview_height"
+            android:layout_width="@dimen/imageview_width"
+            android:src="@drawable/iconweb"
+            android:id="@+id/imageView4"
+            android:layout_above="@id/imageView5"
+            style="@style/ImagenAbajoAliIzda"
+            />
+
+    <ImageView
+            android:layout_height="@dimen/imageview_height"
+            android:layout_width="@dimen/imageview_width"
+            android:src="@drawable/icon_direc"
+            android:id="@+id/imageView5"
+            android:layout_alignParentBottom="true"
+            style="@style/ImagenAbajoAliIzda"
+            />
+
+</RelativeLayout>

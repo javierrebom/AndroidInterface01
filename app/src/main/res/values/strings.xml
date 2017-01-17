@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AndroidInterface01</string>
+     <string
+         name="nombre_empresa"
+         >TRADINTELEC SA</string>
+     <string
+         name="subtitulo_empresa_esp"
+         >Traductores de Informática y Telecomunicaciones</string>
+     <string
+         name="subtitulo_empresa_ingles"
+         >Computer and Telecommunication Translators in Spain (European Union)</string>
+    <string
+        name="tel_empresa"
+        >: +(34) 9135252000</string>
+    <string
+        name="email_empresa"
+        >: javier.rebom@gmail.com</string>
+    <string
+        name="web_empresa"
+        >: http://www.tradintelec.es</string>
+    <string
+        name="dir_empresa"
+        >: C/ Gran Vía 32, Pozuelo, 28224</string>
+</resources>
